@@ -23,3 +23,13 @@ docker run -d --rm -p 4444:4444 -p 4466:4466 wzulfikar/ory-hydra-keto-playground
 
 - hydra will be available from your localhost:4444
 - keto will be available from your localhost:44656
+
+---
+
+### Using JS SDK
+
+At time of this writing, ORY hydra & keto were still in beta. For the purpose of this playground, both sdk were vendored here. To use it in your project, you can use npm link.
+
+```
+cp -r <path to this repo>/sdk/js/* <path to your project>/node_modules
+```
